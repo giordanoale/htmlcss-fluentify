@@ -1,0 +1,54 @@
+/* generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* /generali */
+
+/* intestazione */
+header{
+  background-color: #0C325A;
+  padding-top: 15px;
+  line-height: 38px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.container img{
+  vertical-align: middle;
+}
+/* /intestazione */
+
+/* barra di naigazione */
+.main-nav{
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 10px;
+  vertical-align: middle;
+}
+.main-nav ul {
+  list-style: none;
+  color: white;
+  display: inline-block;
+}
+
+.main-nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.main-nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding:
+}
+/* /barra di navigazione */
