@@ -21,7 +21,6 @@ header {
   width: 80%;
   margin: auto;
   position:relative;
-  margin-bottom: 50px;
 }
 
 .container img {
@@ -80,6 +79,7 @@ header {
 .jumbotron {
   height: 60vh;
   position: relative;
+  margin-top: 50px;
 }
 
 .jumbotron img {
@@ -135,7 +135,7 @@ header {
 /* /interlinea grigia */
 
 /* sezione caratteristiche */
-.features::after{
+.clearfix::after{
   content: "";
   display: block;
   clear: both;
@@ -171,4 +171,31 @@ header {
   margin-top: 10px;
   font-size: 18px;
   line-height: 24px;
+  margin-bottom: 0;
+}
+/* /sezione caratteristiche */
+
+/* sezione livello iniziale */
+.small-col {
+  width: 50%;
+  margin: 30px 0;
+  float: left;
+}
+
+.small-col h3 {
+  line-height: 45px;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.small-col p {
+  color: grey;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.small-col a {
+  padding: 10px;
+  color: #76a3fc;
 }
