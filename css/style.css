@@ -20,6 +20,7 @@ header{
 .container{
   width: 80%;
   margin: auto;
+  position:relative;
 }
 
 .container img{
@@ -27,28 +28,49 @@ header{
 }
 /* /intestazione */
 
-/* barra di naigazione */
-.main-nav{
+/* barra di navigazione */
+.main-nav, .login-nav{
   display: inline-block;
   margin-left: 50px;
   font-size: 10px;
   vertical-align: middle;
 }
-.main-nav ul {
+.main-nav ul, .login-nav ul {
   list-style: none;
   color: white;
   display: inline-block;
 }
 
-.main-nav ul li{
+.main-nav ul li, .login-nav ul li{
   display: inline-block;
   text-transform: uppercase;
   margin-right: 20px;
 }
 
-.main-nav ul li a{
+.main-nav ul li a, .login-nav ul li a{
   text-decoration: none;
   color: white;
   padding:
+}
+
+.login-click{
+  display: inline-block;
+  padding: 1px 20px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.cta{
+  display: inline-block;
+  padding: 1px 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #7CBB02;
+}
+
+.login-nav{
+  position: absolute;
+  right: 0;
 }
 /* /barra di navigazione */
