@@ -5,25 +5,26 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
 /* /generali */
 
 /* intestazione */
-header{
+header {
   background-color: #0C325A;
   padding-top: 15px;
   line-height: 38px;
 }
 
-.container{
+.container {
   width: 80%;
   margin: auto;
   position:relative;
+  margin-bottom: 50px;
 }
 
-.container img{
+.container img {
   vertical-align: middle;
 }
 /* /intestazione */
@@ -41,19 +42,19 @@ header{
   display: inline-block;
 }
 
-.main-nav ul li, .login-nav ul li{
+.main-nav ul li, .login-nav ul li {
   display: inline-block;
   text-transform: uppercase;
   margin-right: 20px;
 }
 
-.main-nav ul li a, .login-nav ul li a{
+.main-nav ul li a, .login-nav ul li a {
   text-decoration: none;
   color: white;
   padding:
 }
 
-.login-click{
+.login-click {
   display: inline-block;
   padding: 1px 20px;
   border: 1px solid white;
@@ -61,7 +62,7 @@ header{
   border-radius: 5px;
 }
 
-.cta{
+.cta {
   display: inline-block;
   padding: 1px 20px;
   text-align: center;
@@ -69,8 +70,41 @@ header{
   background-color: #7CBB02;
 }
 
-.login-nav{
+.login-nav {
   position: absolute;
   right: 0;
 }
 /* /barra di navigazione */
+
+/* jumbotron */
+.jumbotron {
+  height: 60vh;
+  position: relative;
+}
+
+.jumbotron img {
+  height: 100%;
+  position: absolute;
+  right: -20px;
+}
+
+.jumbotron h1{
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  width: 50%;
+  top:100px;
+  transform: translateY(-50%);
+}
+
+.jumbotron a{
+  position: absolute;
+  color: white;
+  line-height: 55px;
+  top:220px;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  text-decoration: none;
+}
