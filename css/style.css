@@ -88,7 +88,7 @@ header {
   right: -20px;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
   position: absolute;
   color: white;
   font-weight: 400;
@@ -99,7 +99,7 @@ header {
   transform: translateY(-50%);
 }
 
-.jumbotron a{
+.jumbotron a {
   position: absolute;
   color: white;
   line-height: 55px;
@@ -111,7 +111,7 @@ header {
 /* /jumbotron */
 
 /* interlinea grigia */
-.interline{
+.interline {
   background-color: lightgrey;
   height: 20vh;
   text-align: center;
@@ -119,16 +119,56 @@ header {
   position: relative;
 }
 
-.interline-text{
+.interline-text {
   position: absolute;
   top:50%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
-.interline-text p{
+.interline-text p {
   margin-top: 10px;
   color: grey;
+}
+/* /interlinea grigia */
+
+/* sezione caratteristiche */
+.features::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col {
+  text-align: center;
+  padding: 30px 10px;
+  width: calc(100%/3);
+  float: left;
+}
+
+.col img {
+  height: 25vh;
+  padding: 10px;
+}
+
+.col h3 {
+  color: #7CBB02;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.col hr {
+  background-color: lightgrey;
+  width: 30%;
+  margin: auto;
+}
+
+.col p {
+  color: grey;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
 }
