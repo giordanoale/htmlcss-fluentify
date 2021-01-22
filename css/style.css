@@ -251,6 +251,29 @@ header {
   display: inline-block;
 }
 
-.under-col a{
+.under-col a {
   padding: 20px;
 }
+/* /underline grigia */
+
+/* bottone help */
+.help {
+  position:fixed;
+  bottom: -5px;
+  right:300px;
+}
+
+.btn-help {
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 12px;
+  min-width: 80px;
+  text-align: center;
+  line-height: initial;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #7CBB02;
+  height: 50px;
+}
+/* /bottone help */
