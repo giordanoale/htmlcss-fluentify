@@ -89,6 +89,11 @@ header {
 /* jumbotron */
 .jumbotron {
   height: 60vh;
+  background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  background-position: 107% 100%;
+  background-size: 60%;
+  /* overflow: hidden; */
   position: relative;
   margin-top: 50px;
 }
@@ -115,6 +120,7 @@ header {
   color: white;
   line-height: 55px;
   top:220px;
+  padding: 0px 25px;
   transform: translateY(-50%);
   text-transform: uppercase;
   text-decoration: none;
