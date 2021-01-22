@@ -75,6 +75,8 @@ header {
   min-width: 80px;
   text-align: center;
   line-height: initial;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-bordered {
@@ -107,7 +109,7 @@ header {
 .jumbotron h1 {
   position: absolute;
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 50px;
   line-height: 55px;
   width: 50%;
@@ -215,4 +217,40 @@ header {
 .small-col a {
   padding: 10px;
   color: #76a3fc;
+}
+
+/* underline grigia */
+.underline {
+  background-color: lightgrey;
+  height: 30vh;
+  line-height: 30vh;
+}
+
+.under-col {
+  width: 50%;
+  float: left;
+  vertical-align: middle;
+}
+
+.under-col .select {
+  display: inline-block;
+  background-color: none;
+  min-width: 100px;
+  padding: 0px 20px;
+}
+
+.under-col h3{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.under-col h4 {
+  color: grey;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.under-col a{
+  padding: 20px;
 }
